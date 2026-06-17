@@ -17,7 +17,7 @@ export async function initDatabase() {
     console.error('Database initialization error:', error);
   } finally {
     client.release();
-  } 
+  }
 }
 
 export default pool;

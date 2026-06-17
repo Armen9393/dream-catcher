@@ -40,8 +40,9 @@ dreamForm.addEventListener('submit', async (e) => {
             return;
         }
 
+
         const newDream = data;
-        
+
         // Clear form
         dreamText.value = '';
         
